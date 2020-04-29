@@ -1,0 +1,14 @@
+Qual o objetivo do comando cache em Spark?
+R: Melhora a eficiência do código, permitindo que resultados intermediários de operações possam ser reutilizados.
+
+O mesmo código implementado em Spark é normalmente mais rápido que a implementação equivalente em MapReduce. Por quê?
+R: Porque o Spark funciona na memória e não em unidades de disco rigido. O Spark realiza as tarefas em um so lugar, tornando o desempenho mais rapido.
+
+Qual é a função do SparkContext?
+R: Conectar o Spark ao programa desenvolvido. Sendo armazenado em uma variavel para utilizar seus recursos.
+
+Explique com suas palavras o que é Resilient Distributed Datasets (RDD).
+R: Conjunto de objetos no cluster, executados na memoria principal.
+
+GroupByKey é menos eficiente que reduceByKey em grandes dataset. Por quê?
+R: Por que o spark sabe que pode combinar a saida com uma chave comum em cada partição antes de embaralhar os dados.
